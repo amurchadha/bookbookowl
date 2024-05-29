@@ -1,0 +1,22 @@
+title: "Book Book Owl"
+description: "A blog about book reviews and recommendations."
+url: "https://www.bookbookowl.com" # the base URL of your site
+baseurl: "" # the subpath of your site, e.g., "/blog"
+twitter_username: bookbookowl
+github_username: bookbookowl
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO and social settings
+author:
+  name: "Book Book Owl"
+  email: "info@bookbookowl.com"
+  twitter: "bookbookowl"
+
+# Other settings
+permalink: /:year/:month/:day/:title/
