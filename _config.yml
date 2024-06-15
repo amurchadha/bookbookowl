@@ -20,3 +20,6 @@ author:
 
 # Other settings
 permalink: /:year/:month/:day/:title/
+
+include:
+  - host_key.txt
